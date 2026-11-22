@@ -1,0 +1,19 @@
+{
+  "name": "junami-marketing-mcp",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check src/worker.js",
+    "build": "wrangler deploy --dry-run",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.0",
+    "agents": "^0.3.0",
+    "jose": "^6.0.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "wrangler": "^4.50.0"
+  }
+}
