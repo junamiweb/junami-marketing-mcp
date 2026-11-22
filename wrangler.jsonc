@@ -1,0 +1,2 @@
+// Cloudflare Worker for JUNAMI's authenticated WordPress check.
+{"name":"junami-marketing-mcp","main":"src/worker.js","compatibility_date":"2026-11-22","compatibility_flags":["nodejs_compat"],"workers_dev":true,"preview_urls":false}
